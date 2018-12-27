@@ -1,6 +1,6 @@
-var size_x, size_y, place_x, place_y, tile, coors;
-size_x = 12;
-size_y = 12;
+var size_x, size_y, place_x, place_y, tile, coors, inst;
+size_x = 6;
+size_y = 6;
 
 for (place_x = 0; place_x < size_x; place_x++) {
 	for (place_y = 0; place_y < size_y; place_y++) {
@@ -10,6 +10,11 @@ for (place_x = 0; place_x < size_x; place_x++) {
 			tile = tile_green;
 		}
 		coors = scr_getCoor(place_x, place_y);
-		instance_create_layer(coors[? "x"], coors[? "y"], "board", tile);
+		inst = instance_create_layer(coors[? "x"], coors[? "y"], "board", tile);
+		with(inst) {
+			self.base_x = place_x;
+			self.base_y = place_y;
+		}
 	}
 }
+
