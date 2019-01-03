@@ -1,4 +1,4 @@
-///getCoor(in_x, in_y)
+///scr_getCoor(in_x, in_y)
 var end_x, end_y, coors, in_x, in_y, offset_x, offset_y, start_x, start_y;
 coors = ds_map_create();
 in_x = argument0;

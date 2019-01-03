@@ -1,8 +1,8 @@
 {
-    "id": "62b29a08-cf03-4b12-8095-4587e897aaa7",
+    "id": "ad3a2a8f-e222-4633-a7c5-6f7b83c8d5bb",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "base_piece",
+    "name": "memory",
     "eventList": [
         
     ],
@@ -24,7 +24,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "365389c9-09c1-4a1b-830d-8dadaa0b9d73",
+            "id": "a3a1ad14-6f8f-4e24-9527-735ea49a30bc",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -33,23 +33,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
-            "varName": "base_x",
-            "varType": 1
-        },
-        {
-            "id": "9703ee27-fe51-4b30-91f1-aecbb5104a6e",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "base_y",
-            "varType": 1
+            "value": "noone",
+            "varName": "selected_piece",
+            "varType": 5
         }
     ],
     "solid": false,

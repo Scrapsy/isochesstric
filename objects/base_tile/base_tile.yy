@@ -59,6 +59,20 @@
             "value": "0",
             "varName": "base_y",
             "varType": 1
+        },
+        {
+            "id": "a6af9188-d713-40a9-9c5d-8040c00eb608",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "noone",
+            "varName": "current_piece",
+            "varType": 5
         }
     ],
     "solid": false,
