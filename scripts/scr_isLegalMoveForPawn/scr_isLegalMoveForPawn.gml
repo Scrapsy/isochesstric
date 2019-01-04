@@ -15,6 +15,7 @@ with(inst) {
 	show_debug_message("Relative relation x: " + string(rel_x) + ", y: " + string(rel_y));
 	switch(self.facing) {
 		case "north":
+			// TODO: Add consideration for after first move
 			if (0 <= rel_y and rel_y <= 2) {
 				if (rel_x == 0 and not tile_meta[? "has_piece"]) {
 					if (rel_y == 2) {
