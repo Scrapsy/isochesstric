@@ -1,23 +1,23 @@
 {
-    "id": "c73b3efd-09e6-4169-a5e3-3ab34eedcaed",
+    "id": "b108c3ea-c685-4b62-a690-472cccb9a4e3",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "piece_pawn_yellow",
+    "name": "piece_purple",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
         {
-            "id": "c9b9f5e7-3665-4ed2-9e26-b97328e5b2d5",
+            "id": "04792b54-0152-4fd4-b283-364f7df67dcf",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "62b29a08-cf03-4b12-8095-4587e897aaa7",
-            "propertyId": "62334fb7-0060-4e74-af4e-fc75cc1061be",
-            "value": "\"pawn\""
+            "propertyId": "ed69e03d-2c0f-4128-994a-06f206f7d52e",
+            "value": "\"purple\""
         }
     ],
-    "parentObjectId": "f2fbacfa-8893-4a97-bfea-f5220ae66695",
+    "parentObjectId": "62b29a08-cf03-4b12-8095-4587e897aaa7",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "7d48c2c7-8e52-44d6-92d2-c3c5be9a2385",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

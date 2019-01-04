@@ -20,14 +20,14 @@ for (place_x = 0; place_x < size_x; place_x++) {
 
 var stage_1;
 stage_1 = [
-	[piece_pawn_purple, 1, 1],
-	[piece_pawn_purple, 2, 1],
-	[piece_pawn_purple, 3, 1],
-	[piece_pawn_purple, 4, 1],
-	[piece_pawn_yellow, 1, 4],
-	[piece_pawn_yellow, 2, 4],
-	[piece_pawn_yellow, 3, 4],
-	[piece_pawn_yellow, 4, 4]
+	[piece_pawn_purple, 1, 1, "south"],
+	[piece_pawn_purple, 2, 1, "south"],
+	[piece_pawn_purple, 3, 1, "south"],
+	[piece_pawn_purple, 4, 1, "south"],
+	[piece_pawn_yellow, 1, 4, "north"],
+	[piece_pawn_yellow, 2, 4, "north"],
+	[piece_pawn_yellow, 3, 4, "north"],
+	[piece_pawn_yellow, 4, 4, "north"]
 ];
 
 for (var i = 0; i < array_length_1d(stage_1); i++) {
@@ -36,13 +36,12 @@ for (var i = 0; i < array_length_1d(stage_1); i++) {
 	coors = scr_getCoor(stage[1], stage[2]);
 	inst = instance_create_layer(coors[? "x"], coors[? "y"], "pieces", stage[0]);
 	with(inst) {
-		self.base_x = place_x;
-		self.base_y = place_y;
+		self.base_x = stage[1];
+		self.base_y = stage[2];
+		self.facing = stage[3];
 	}
 	var tile = instance_nearest(coors[? "x"], coors[? "y"], base_tile);
 	with(tile) {
 		self.current_piece = inst;
-		show_debug_message("x: " + string(base_x) + ", y: " + string(base_y));
-		show_debug_message("Piece: " + string(current_piece));
 	}
 }
