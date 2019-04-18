@@ -27,7 +27,23 @@ with (memory_instance) {
 			self.selected_piece = noone;
 		} else if (status[? "status"] == "taken") {
 			show_debug_message("Is Legal move, killing someone at: " + string(status[? "current_tile"]));
-			// TODO: Need to fix death movements
+			with(other.current_piece) {
+				//TODO: Do better death handling
+				self.x = 10;
+				self.y = 10;
+				self.base_x = 10;
+				self.base_y = 10;
+			}
+			other.current_piece = noone;
+			
+			with(self.selected_piece) {
+				self.x = this_x;
+				self.y = this_y;
+				self.base_x = tile_base_x;
+				self.base_y = tile_base_y;
+			}
+			other.current_piece = self.selected_piece;
+			self.selected_piece = noone;
 		} else {
 			show_debug_message("Is not Legal move");
 		}

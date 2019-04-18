@@ -13,7 +13,9 @@ with(inst) {
 	show_debug_message("My location x: " + string(self.base_x) + ", y: " + string(self.base_y) );
 	show_debug_message("Going to x: " + string(to_x) + ", y: " + string(to_y));
 	show_debug_message("Relative relation x: " + string(rel_x) + ", y: " + string(rel_y));
+	show_debug_message("-----------------------------");
 	switch(self.facing) {
+		// TODO: Add other facings
 		case "north":
 			// TODO: Add consideration for after first move
 			if (0 <= rel_y and rel_y <= 2) {
@@ -28,6 +30,27 @@ with(inst) {
 						status[? "status"] = "clear";
 					}
 				} else if (rel_y == 1 and (rel_x == 1 or rel_x == -1) ) {
+					if (tile_meta[? "has_piece"] and tile_meta[? "team"] != self.team) {
+						status[? "status"] = "taken";
+						status[? "current_tile"] = tile_instance;
+					}
+				}
+			}
+			break
+		case "south":
+			// TODO: Add consideration for after first move
+			if (-2 <= rel_y and rel_y <= 0) {
+				if (rel_x == 0 and not tile_meta[? "has_piece"]) {
+					if (rel_y == -2) {
+						tile_instance = scr_getTileByCoor(to_x, to_y - 1);
+						tile_meta = scr_getTileMeta(tile_instance);
+						if (tile_meta[? "has_piece"]) {
+							status[? "status"] = "clear";
+						}
+					} else {
+						status[? "status"] = "clear";
+					}
+				} else if (rel_y == -1 and (rel_x == 1 or rel_x == -1) ) {
 					if (tile_meta[? "has_piece"] and tile_meta[? "team"] != self.team) {
 						status[? "status"] = "taken";
 						status[? "current_tile"] = tile_instance;

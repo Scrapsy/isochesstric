@@ -1,5 +1,5 @@
 /// scr_isLegalMove(to_x, to_y, inst)
-// must return a map with applicable status.
+// the legal moves must return a map with applicable status.
 // status object keys:
 /*
 	status: clear - It is possible to move and there is nothing on the new tile

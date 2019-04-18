@@ -9,12 +9,12 @@
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [
         {
-            "id": "c9b9f5e7-3665-4ed2-9e26-b97328e5b2d5",
+            "id": "7f1519cb-c001-4d35-bc8d-c9411af27de8",
             "modelName": "GMOverriddenProperty",
             "mvc": "1.0",
             "objectId": "62b29a08-cf03-4b12-8095-4587e897aaa7",
-            "propertyId": "62334fb7-0060-4e74-af4e-fc75cc1061be",
-            "value": "\"pawn\""
+            "propertyId": "ed69e03d-2c0f-4128-994a-06f206f7d52e",
+            "value": "\"yellow\""
         }
     ],
     "parentObjectId": "f2fbacfa-8893-4a97-bfea-f5220ae66695",

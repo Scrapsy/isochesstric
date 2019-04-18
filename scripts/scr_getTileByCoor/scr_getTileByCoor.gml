@@ -7,7 +7,7 @@ for (var i = 0; i < instance_number(base_tile); ++i)
 {
 	var instance = instance_find(base_tile, i);
 	with(instance) {
-		if (self.base_x == at_x && self.base_y = at_y) {
+		if (self.base_x == at_x and self.base_y = at_y) {
 			found_instance = instance;
 			break;
 		}

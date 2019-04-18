@@ -31,14 +31,14 @@ stage_1 = [
 ];
 
 for (var i = 0; i < array_length_1d(stage_1); i++) {
-	var stage;
-	stage = stage_1[i];
-	coors = scr_getCoor(stage[1], stage[2]);
-	inst = instance_create_layer(coors[? "x"], coors[? "y"], "pieces", stage[0]);
+	var piece;
+	piece = stage_1[i];
+	coors = scr_getCoor(piece[1], piece[2]);
+	inst = instance_create_layer(coors[? "x"], coors[? "y"], "pieces", piece[0]);
 	with(inst) {
-		self.base_x = stage[1];
-		self.base_y = stage[2];
-		self.facing = stage[3];
+		self.base_x = piece[1];
+		self.base_y = piece[2];
+		self.facing = piece[3];
 	}
 	var tile = instance_nearest(coors[? "x"], coors[? "y"], base_tile);
 	with(tile) {
