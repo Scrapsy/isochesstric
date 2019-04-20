@@ -106,6 +106,20 @@
             "value": "False",
             "varName": "has_moved",
             "varType": 3
+        },
+        {
+            "id": "7f34acab-882a-4b0a-8c9d-4d73395f10ac",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "has_died",
+            "varType": 3
         }
     ],
     "solid": false,
