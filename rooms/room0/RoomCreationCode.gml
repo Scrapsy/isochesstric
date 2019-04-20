@@ -18,6 +18,11 @@ for (place_x = 0; place_x < size_x; place_x++) {
 	}
 }
 
+// teams [team allegience, player or ai type]
+var teams = [
+	["yellow", "player"],
+	["purple", "ai"]
+];
 var stage_1;
 stage_1 = [
 	[piece_pawn_purple, 1, 1, "south"],
@@ -45,3 +50,5 @@ for (var i = 0; i < array_length_1d(stage_1); i++) {
 		self.current_piece = inst;
 	}
 }
+memory_instance.current_team = 0;
+memory_instance.teams = teams;

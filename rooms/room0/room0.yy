@@ -25,7 +25,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "memory_instance","id": "8be3a9d8-696a-4546-a8a7-ae730349b5eb","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_memory_instance.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "memory_instance","objId": "ad3a2a8f-e222-4633-a7c5-6f7b83c8d5bb","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 0,"y": 0}
+{"name": "memory_instance","id": "8be3a9d8-696a-4546-a8a7-ae730349b5eb","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_memory_instance.gml","creationCodeType": ".gml","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "memory_instance","objId": "ad3a2a8f-e222-4633-a7c5-6f7b83c8d5bb","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 0,"y": 0}
             ],
             "layers": [
 

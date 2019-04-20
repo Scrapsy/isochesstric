@@ -36,6 +36,34 @@
             "value": "noone",
             "varName": "selected_piece",
             "varType": 5
+        },
+        {
+            "id": "08c404f7-78c9-4166-a8f9-428de239bb94",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "current_team",
+            "varType": 1
+        },
+        {
+            "id": "087b09b7-be89-44a2-9b51-3c2ec454671e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "[[]]",
+            "varName": "teams",
+            "varType": 4
         }
     ],
     "solid": false,
