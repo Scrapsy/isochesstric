@@ -1,10 +1,19 @@
 {
-    "id": "ad3a2a8f-e222-4633-a7c5-6f7b83c8d5bb",
+    "id": "572513ab-0e14-4a84-b134-ce5de8ac1232",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "memory",
+    "name": "brain",
     "eventList": [
-        
+        {
+            "id": "5993e325-4d25-422b-a0c4-f15fa1d2b4bc",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "572513ab-0e14-4a84-b134-ce5de8ac1232"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -24,21 +33,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "a3a1ad14-6f8f-4e24-9527-735ea49a30bc",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "noone",
-            "varName": "selected_piece",
-            "varType": 5
-        },
-        {
-            "id": "08c404f7-78c9-4166-a8f9-428de239bb94",
+            "id": "5d2b59b7-7d33-4384-b1f6-38d721a00b67",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -48,11 +43,11 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "current_team",
+            "varName": "time",
             "varType": 1
         },
         {
-            "id": "087b09b7-be89-44a2-9b51-3c2ec454671e",
+            "id": "e80ec649-f0c5-4307-8ff8-e86a984057b1",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -61,23 +56,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "[[]]",
-            "varName": "teams",
-            "varType": 4
-        },
-        {
-            "id": "3a179292-c496-4efe-bf69-1acc7a414320",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "[]",
-            "varName": "current_player",
-            "varType": 4
+            "value": "30",
+            "varName": "frequency",
+            "varType": 1
         }
     ],
     "solid": false,

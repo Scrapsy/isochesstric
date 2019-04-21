@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "572513ab-0e14-4a84-b134-ce5de8ac1232",
+            "Value": {
+                "id": "2f6f9b04-2dda-4e32-b295-c95fc7d76a88",
+                "resourcePath": "objects\\brain\\brain.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "57f9f5c9-b190-4c69-9b98-a05636140114",
             "Value": {
                 "id": "646d0b3b-8ab8-4dcf-abc7-566594986a2f",

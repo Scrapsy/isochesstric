@@ -7,7 +7,8 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "8be3a9d8-696a-4546-a8a7-ae730349b5eb"
+        "8be3a9d8-696a-4546-a8a7-ae730349b5eb",
+        "727127cb-049d-4feb-b3ef-4617c158024e"
     ],
     "IsDnD": false,
     "layers": [
@@ -25,7 +26,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "memory_instance","id": "8be3a9d8-696a-4546-a8a7-ae730349b5eb","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_memory_instance.gml","creationCodeType": ".gml","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "memory_instance","objId": "ad3a2a8f-e222-4633-a7c5-6f7b83c8d5bb","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 0,"y": 0}
+{"name": "memory_instance","id": "8be3a9d8-696a-4546-a8a7-ae730349b5eb","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_memory_instance.gml","creationCodeType": ".gml","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "memory_instance","objId": "ad3a2a8f-e222-4633-a7c5-6f7b83c8d5bb","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 0,"y": 0},
+{"name": "brain_instance","id": "727127cb-049d-4feb-b3ef-4617c158024e","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "brain_instance","objId": "572513ab-0e14-4a84-b134-ce5de8ac1232","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 32,"y": 0}
             ],
             "layers": [
 

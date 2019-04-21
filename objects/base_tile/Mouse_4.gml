@@ -82,6 +82,6 @@ with (memory_instance) {
 		show_debug_message("New team:");
 		show_debug_message(new_team);
 		scr_resetMovability(new_team[0]);
-		// TODO: Check if new team is AI, add logic for AI players
+		self.current_player = new_team;
 	}
 }

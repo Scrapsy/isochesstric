@@ -52,3 +52,4 @@ for (var i = 0; i < array_length_1d(stage_1); i++) {
 }
 memory_instance.current_team = 0;
 memory_instance.teams = teams;
+memory_instance.current_player = teams[0];
