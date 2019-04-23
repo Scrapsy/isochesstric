@@ -120,6 +120,34 @@
             "value": "0",
             "varName": "has_died",
             "varType": 3
+        },
+        {
+            "id": "b9bfea86-26c1-42ef-a61c-d9cca1667afc",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "threat",
+            "varType": 1
+        },
+        {
+            "id": "ee3edc09-df87-4757-b040-eb2f44e738cf",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "value",
+            "varType": 1
         }
     ],
     "solid": false,

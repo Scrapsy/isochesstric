@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description AI logic handler
 time++;
 
 if (memory_instance.current_player[1] != "player") {
@@ -9,6 +8,7 @@ if (memory_instance.current_player[1] != "player") {
 			with(pieces[0]) {
 				self.has_moved = true;
 			}
+			scr_turnEnd();
 		}
 	}
 }

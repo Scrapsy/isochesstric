@@ -25,6 +25,7 @@ with (memory_instance) {
 			show_debug_message("Status: " + status[? "status"]);
 			if (status[? "status"] == "clear") {
 				show_debug_message("Is Legal move, fine to go");
+				scr_calculateThreat(self.selected_piece, false);
 				with(self.selected_piece) {
 					self.x = this_x;
 					self.y = this_y;
@@ -32,11 +33,13 @@ with (memory_instance) {
 					self.base_y = tile_base_y;
 					self.has_moved = true;
 				}
+				scr_calculateThreat(self.selected_piece, true);
 				other.current_piece = self.selected_piece;
 				self.selected_piece = noone;
 			} else if (status[? "status"] == "taken") {
 				show_debug_message("Is Legal move, killing someone at: " + string(status[? "current_tile"]));
 				// TODO: Check if this is the last piece removed
+				scr_calculateThreat(self.selected_piece, false);
 				with(other.current_piece) {
 					//TODO: Do better death handling
 					self.x = 10;
@@ -54,6 +57,7 @@ with (memory_instance) {
 					self.base_y = tile_base_y;
 					self.has_moved = true;
 				}
+				scr_calculateThreat(self.selected_piece, true);
 				other.current_piece = self.selected_piece;
 				self.selected_piece = noone;
 			} else if (status[? "status"] == "deselect") {
@@ -70,18 +74,5 @@ with (memory_instance) {
 		show_debug_message("Not your turn bruh!");
 	}
 
-	var team = self.teams[self.current_team];
-	var movablePieces = scr_getMovablePieces(team[0]);
-	if (array_length_1d(movablePieces) == 0) {
-		show_debug_message("Last piece has been moved!");
-		self.current_team++;
-		if (self.current_team == array_length_1d(self.teams)) {
-			self.current_team = 0;
-		}
-		var new_team = self.teams[self.current_team];
-		show_debug_message("New team:");
-		show_debug_message(new_team);
-		scr_resetMovability(new_team[0]);
-		self.current_player = new_team;
-	}
+	scr_turnEnd();
 }

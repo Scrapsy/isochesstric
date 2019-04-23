@@ -73,6 +73,20 @@
             "value": "noone",
             "varName": "current_piece",
             "varType": 5
+        },
+        {
+            "id": "b59f519b-29f9-460e-8423-53bf5699e4a1",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "ds_map_create()",
+            "varName": "threats",
+            "varType": 4
         }
     ],
     "solid": false,

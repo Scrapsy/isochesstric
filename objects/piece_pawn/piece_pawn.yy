@@ -15,6 +15,22 @@
             "objectId": "62b29a08-cf03-4b12-8095-4587e897aaa7",
             "propertyId": "62334fb7-0060-4e74-af4e-fc75cc1061be",
             "value": "\"pawn\""
+        },
+        {
+            "id": "f46a202c-75a7-4aab-93c4-cb9b14a82520",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "62b29a08-cf03-4b12-8095-4587e897aaa7",
+            "propertyId": "b9bfea86-26c1-42ef-a61c-d9cca1667afc",
+            "value": "1"
+        },
+        {
+            "id": "a7693d76-75f1-4454-9c0d-b63f79606850",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "62b29a08-cf03-4b12-8095-4587e897aaa7",
+            "propertyId": "ee3edc09-df87-4757-b040-eb2f44e738cf",
+            "value": "1"
         }
     ],
     "parentObjectId": "62b29a08-cf03-4b12-8095-4587e897aaa7",

@@ -36,8 +36,7 @@ stage_1 = [
 ];
 
 for (var i = 0; i < array_length_1d(stage_1); i++) {
-	var piece;
-	piece = stage_1[i];
+	var piece = stage_1[i];
 	coors = scr_getCoor(piece[1], piece[2]);
 	inst = instance_create_layer(coors[? "x"], coors[? "y"], "pieces", piece[0]);
 	with(inst) {
@@ -49,7 +48,11 @@ for (var i = 0; i < array_length_1d(stage_1); i++) {
 	with(tile) {
 		self.current_piece = inst;
 	}
+	
+	scr_calculateThreat(inst, true);
 }
 memory_instance.current_team = 0;
 memory_instance.teams = teams;
 memory_instance.current_player = teams[0];
+
+scr_printThreatMap();
